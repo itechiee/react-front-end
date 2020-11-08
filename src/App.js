@@ -14,14 +14,12 @@ function App() {
   return (
     <div className="App">
       <Switch>
-          {/* <DefaultRoute path="/" exact />
+          <DefaultRoute path="/" exact />
           <AuthRoute path="/login" />    
-          <ProtectedRoute path="/users" exact component={UserList} />  */}
+          <ProtectedRoute path="/users" exact component={UserList} /> 
           {/* <Route path="/admin" component={Admin} />              */}
-          {/* <Route path="/test" component={TestPage} />
-          <Route path="**" component={PageNotFound} /> */}
-
-          <Route path="/users" component={UserList} />
+          <Route path="/test" component={TestPage} />
+          <Route path="**" component={PageNotFound} />
       </Switch>
     </div>
   );
