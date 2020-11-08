@@ -1,0 +1,21 @@
+.logo-text{
+  font-weight: bold;
+  display: inline-block;
+  /* font-size: 20px; */
+}
+
+.logo-wrap{margin: 0 auto;}
+
+.navbar-wrap{
+  background-color: #b8b894;
+}
+
+.nav-link a, .nav-link a:hover {
+  text-decoration: none !important;
+}
+
+.nav-link a.active {
+  width: 100%;
+  display: inline-block;
+  background-color: #16849a54;
+}
